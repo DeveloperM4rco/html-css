@@ -83,6 +83,7 @@ section > p {
 #img01 {
     background-image: url('img/background001.jpg');
     background-attachment: fixed;
+    background-position: center;
 }
 
 #img02 {
