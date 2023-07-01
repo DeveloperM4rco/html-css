@@ -3,4 +3,4 @@
 
 <p>Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.</p>
 
-<p>Executar os exercicios<a href="https://developerm4rco.github.io/html-css/exercicios/">aqui</a>.</p>
+<p>Executar os exercicios <a href="https://developerm4rco.github.io/html-css/exercicios/">aqui</a>.</p>
