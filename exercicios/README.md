@@ -44,6 +44,6 @@
 <p>Trabalhando com tabelas: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela001.html">Exercício 023.1</a>.</p>
 <p>Efeito zebrado em tabelas: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela002.html">Exercício 023.2</a>.</p>
 <p>Mesclagem de células: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela003.html">Exercício 023.3</a>.</p>
-<p>Exercício de mesclagem: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela004.html">Exercício 023.4/a>.</p>
-<p>Exercício de escopo: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela005.html">Exercício 023.5/a>.</p>
-<p>Resposividade de tabelas: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela006.html">Exercício 023.6/a>.</p>
+<p>Exercício de mesclagem: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela004.html">Exercício 023.4</a>.</p>
+<p>Exercício de escopo: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela005.html">Exercício 023.5</a>.</p>
+<p>Resposividade de tabelas: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela006.html">Exercício 023.6</a>.</p>
