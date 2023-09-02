@@ -47,4 +47,4 @@
 <p>Exercício de mesclagem: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela004.html">Exercício 023.4</a>.</p>
 <p>Exercício de escopo: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela005.html">Exercício 023.5</a>.</p>
 <p>Resposividade de tabelas: <a href="https://developerm4rco.github.io/html-css/exercicios/ex023/tabela006.html">Exercício 023.6</a>.</p>
-<p>Introdução aos iFrames: <a href="https://developerm4rco.github.io/html-css/exercicios/ex024/iframe001.html">Exercício 023.6</a>.</p>
+<p>Introdução aos iFrames: <a href="https://developerm4rco.github.io/html-css/exercicios/ex024/iframe001.html">Exercício 024</a>.</p>
