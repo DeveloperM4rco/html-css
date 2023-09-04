@@ -33,6 +33,12 @@
     <script>
         const num1 = document.querySelector("#num1");
         const num2 = document.querySelector("#num2");
+        const val_output = document.querySelector("[value='Limpar']");
+
+        val_output.addEventListener('click', () => {
+            document.querySelector("#soma").innerHTML = 0;
+        });
+
         const soma = () => {
             document.querySelector("#soma").innerHTML = Number(num1.value) + Number(num2.value);
         }
