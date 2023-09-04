@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <label for="num">Número:</label>
+            <input type="range" name="num" id="num" min="0" max="10" value="5"><output id="val">5</output>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <script>
+        const input = document.querySelector("#num");
+        const limpar = document.querySelector("[value='Limpar']");
+        
+        limpar.addEventListener('click', () => {
+            document.querySelector("#val").innerHTML = 5;
+        });
+
+        input.addEventListener('input', () => {
+            document.querySelector("#val").innerHTML = Number(input.value);
+        });
+    </script>
+</body>
+</html>
