@@ -15,11 +15,11 @@
     <form action="cadastro.php" method="get">
         <div>
             <label for="num1">Número 1:</label>
-            <input type="number" name="num1" id="num1" min="0" max="50" required oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+            <input type="number" name="num1" id="num1" min="0" max="50" required>
         </div>
         <div>
             <label for="num2">Número 2:</label>
-            <input type="number" name="num2" id="num2" min="0" max="50" required oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+            <input type="number" name="num2" id="num2" min="0" max="50" required>
         </div>
         <div>
             <label for="soma">Soma:</label>
@@ -30,5 +30,16 @@
             <input type="reset" value="Limpar">
         </div>
     </form>
+    <script>
+        const num1 = document.querySelector("#num1");
+        const num2 = document.querySelector("#num2");
+        const soma = () => {
+            document.querySelector("#soma").innerHTML = Number(num1.value) + Number(num2.value);
+        }
+
+        num1.addEventListener('input', soma);
+
+        num2.addEventListener('input', soma);
+    </script>
 </body>
 </html>
