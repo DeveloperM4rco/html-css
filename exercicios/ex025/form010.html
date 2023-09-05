@@ -27,8 +27,7 @@
         </div>
     </form>
     <script>
-        const data = new Date();
-        const ano = data.getFullYear();
+        const ano = new Date().getFullYear();
         const input = document.querySelector("#ano");
         const idade = document.querySelector("#idade");
         const limpar = document.querySelector("[value='Limpar']");
@@ -42,7 +41,6 @@
         input.addEventListener('input', () => {
             idade.innerHTML = Number(ano) - Number(input.value);
         });
-
     </script>
 </body>
 </html>
