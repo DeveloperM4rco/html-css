@@ -32,9 +32,7 @@
         const idade = document.querySelector("#idade");
         const limpar = document.querySelector("[value='Limpar']");
 
-        limpar.addEventListener('click', () => {
-            idade.innerHTML = 0;
-        });
+        limpar.addEventListener('click', () => idade.innerHTML = 0);
 
         input.setAttribute('max', `${Number(ano)}`);
         input.setAttribute('min', `${Number(ano - 100)}`);
