@@ -24,15 +24,11 @@
     </form>
     <script>
         const input = document.querySelector("#num");
+        const output = document.querySelector("#val");
         const limpar = document.querySelector("[value='Limpar']");
         
-        limpar.addEventListener('click', () => {
-            document.querySelector("#val").innerHTML = 5;
-        });
-
-        input.addEventListener('input', () => {
-            document.querySelector("#val").innerHTML = Number(input.value);
-        });
+        limpar.addEventListener('click', () => output.innerHTML = 5);
+        input.addEventListener('input', () => output.innerHTML = Number(input.value));
     </script>
 </body>
 </html>
