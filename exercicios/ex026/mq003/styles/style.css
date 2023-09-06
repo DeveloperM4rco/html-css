@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +10,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #233eff;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -26,6 +25,7 @@ h1 {
     body {
         background: url(../imagens/cev-portrait.jpg);
         background-position: center bottom;
+        background-repeat: no-repeat;
     }
 }
 
@@ -34,5 +34,6 @@ h1 {
     body {
         background: url(../imagens/cev-landscape.jpg);
         background-position: left bottom;
+        background-repeat: no-repeat;
     }
 }
