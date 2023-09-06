@@ -3,5 +3,6 @@
 /* Aparelho em modo paisagem */
 
 body {
-    
+    background: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
