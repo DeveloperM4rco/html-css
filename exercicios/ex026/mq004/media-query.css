@@ -2,6 +2,56 @@
 
 /* Todas as demais mídias */
 
+/* impressão */
 @media print {
     
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone, #tablet, #print, #pc, #tv {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+/* pc */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg);
+    }
+
+    #phone, #tablet, #print, #pc, #tv {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+    }
+}
+
+/* grandes telas */
+@media screen and (min-width: 1200px) {
+    body {
+        background: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 85vw;
+    }
+
+    #phone, #tablet, #print, #pc, #tv {
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
 }
