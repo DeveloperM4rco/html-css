@@ -23,7 +23,7 @@
         text-decoration: overline;
     }
 
-    #phone, #tablet, #print, #pc, #tv {
+    #tablet, #print, #pc, #tv {
         display: none;
     }
 
@@ -38,7 +38,7 @@
         background: url(../imagens/back-tablet.jpg);
     }
 
-    #phone, #tablet, #print, #pc, #tv {
+    #phone, #print, #pc, #tv {
         display: none;
     }
 
@@ -53,7 +53,7 @@
         background: url(../imagens/back-pc.jpg);
     }
 
-    #phone, #tablet, #print, #pc, #tv {
+    #phone, #tablet, #print, #tv {
         display: none;
     }
 
@@ -72,7 +72,7 @@
         width: 85vw;
     }
 
-    #phone, #tablet, #print, #pc, #tv {
+    #phone, #tablet, #print, #pc {
         display: none;
     }
 
