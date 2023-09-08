@@ -4,7 +4,36 @@
 
 /* impressão */
 @media print {
-    
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background: url(../imagens/back-print.jpg); /* desnecessarío */
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    #phone, #tablet, #print, #pc, #tv {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
 }
 
 /* tablet */
