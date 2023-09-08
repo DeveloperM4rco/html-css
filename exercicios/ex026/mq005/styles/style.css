@@ -25,11 +25,6 @@ header {
     cursor: pointer;
 }
 
-.fa-bars:active {
-    color: #000;
-    background-color: #fff;
-}
-
 header > h1 {
     text-align: center;
     padding: 10px;
@@ -56,10 +51,6 @@ menu a {
     border-top: 2px solid gray;
     background-color: #575757;
     transition: 0.2s;
-}
-
-menu a:active {
-    background-color: gray;
 }
 
 main {
