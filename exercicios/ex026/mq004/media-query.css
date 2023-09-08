@@ -23,7 +23,7 @@
         text-decoration: overline;
     }
 
-    #tablet, #print, #pc, #tv {
+    #phone, #tablet, #pc, #tv {
         display: none;
     }
 
