@@ -35,8 +35,12 @@ header > h1 {
     padding: 10px;
 }
 
-.open {
+menu {
     display: none;
+}
+
+.open {
+    display: block;
 }
 
 menu > ul {
