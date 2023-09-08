@@ -15,4 +15,8 @@ High-res laptop or desktop: 1920px...
     menu {
         display: block;
     }
+
+    menu li {
+        display: inline-block;
+    }
 }
