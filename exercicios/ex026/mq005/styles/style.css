@@ -23,7 +23,6 @@ header {
     padding: 10px;
     background-color: #303030;
     cursor: pointer;
-    transition: 0.2s;
 }
 
 .fa-bars:hover {
