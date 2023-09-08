@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-/* 
-Mobile: 360px até 812px
-Tablet: 768px até 1024px
-Laptop: 1366px até 1920px
-High-res laptop or desktop: 1920px...
+/*
+Mobile: 360px até 768px.
+Tablet: 768px x 1024px.
+Laptop: 1024px 1440px.
+High-res laptop or desktop: 1440px...
 */
 
-@media screen and (min-width: 812px) {
+@media screen and (min-width: 768px) {
     .fa-bars {
         display: none;
     }
