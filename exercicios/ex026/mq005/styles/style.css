@@ -38,7 +38,6 @@ header > h1 {
 
 .open {
     display: none;
-    transition: 0.2s;
 }
 
 menu > ul {
