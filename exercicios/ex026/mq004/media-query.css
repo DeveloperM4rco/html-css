@@ -8,10 +8,6 @@
         font-family: 'Courier New', Courier, monospace;
     }
 
-    body {
-        background: url(../imagens/back-print.jpg); /* desnecessário */
-    }
-
     main {
         width: 90vw;
         border: 2px solid black;
